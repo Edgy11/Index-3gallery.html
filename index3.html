@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Galleries</title>
+	<style>
+		body {
+	background-image: url(https://cdn.wallpapersafari.com/98/44/mrz6xj.jpg); /* replace with your desired background image */
+			background-size: cover;
+			animation: background-animation 25s infinite alternate ease-in-out;
+		}
+		@keyframes background-animation {
+			0% {
+				background-position: 0 0;
+			}
+			100% {
+				background-position: 100% 100%;
+			}
+		}
+		h1 {
+			text-align: center;
+			font-size: 60px;
+			margin-top: 50px;
+			color: #ffffff;
+			
+		}
+		
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 50px;
+		}
+		
+		.gallery-item {
+			margin: 20px;
+			text-align: center;
+			opacity: 0;
+			transform: translateY(20px);
+			transition: all 0.5s ease-out;
+		}
+		
+		.gallery-item img {
+			max-width: 300px;
+			max-height: 300px;
+			object-fit: cover;
+			border-radius: 10px;
+			box-shadow: 0px 0px 30px #87CEEB;
+		}
+		
+		.gallery-item h2 {
+			font-size: 24px;
+			margin-top: 10px;
+		}
+		
+		.gallery-item p {
+			font-size: 16px;
+			margin-top: 5px;
+		}
+		
+		/* Animations */
+		.gallery-item.animate-in {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		
+		.gallery-item.animate-out {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		
+		.gallery-item.animate-in-delay-1 {
+			transition-delay: 0.2s;
+		}
+		
+		.gallery-item:hover {
+			transform: scale(1.20);
+		}
+	</style>
+</head>
+<body>
+	<h1>My Galleries</h1>
+	
+	<div class="gallery">
+		<div class="gallery-item animate-in animate-in-delay-1">
+			<img src="https://i.pinimg.com/originals/da/51/c2/da51c26fe3398b0f8314fee17a98e0e7.jpg" alt="Gallery Item ">
+		</div>
+		
+		<div class="gallery-item animate-in animate-in-delay-2">
+			<img src="https://thumbs.dreamstime.com/b/executive-businessman-smilig-profile-cartoon-vector-illustration-graphic-design-154894544.jpg" alt="Gallery Item">
+		</div>
+		<div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://avatoon.me/wp-content/uploads/2021/09/Cartoon-Pic-Ideas-for-DP-Profile-01.png" alt="Gallery Item">
+		</div>
+		<div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://avatoon.me/wp-content/uploads/2021/09/Cartoon-Pic-Ideas-for-DP-Profile11.png" alt="Gallery Item">
+		</div>
+		<div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://thumbs.dreamstime.com/b/man-profile-cartoon-smiling-round-icon-vector-illustration-graphic-design-135443422.jpg" alt="Gallery Item">
+		</div>
+		<div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://avatoon.me/wp-content/uploads/2021/09/Cartoon-Pic-Ideas-for-DP-Profile-03-768x768.png" alt="Gallery Item">
+		 </div>
+		 <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://avatoon.me/wp-content/uploads/2021/09/Cartoon-Pic-Ideas-for-DP-Profile-02-768x768.png" alt="Gallery Item">
+		 </div>
+		 <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://avatoon.me/wp-content/uploads/2021/09/Cartoon-Pic-Ideas-for-DP-Profile-06-768x766.png" alt="Gallery Item ">
+		 </div>
+		 <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://avatoon.me/wp-content/uploads/2021/09/Cartoon-Pic-Ideas-for-DP-Profile08.png" alt="Gallery Item">
+		 </div>
+		 <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://avatoon.me/wp-content/uploads/2021/09/Cartoon-Pic-Ideas-for-DP-Profile13.png" alt="Gallery Item">
+		 </div>
+		 <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://i.pinimg.com/736x/38/ab/8f/38ab8fc602be399a21cc8a46f00a08b3.jpg" alt="Gallery Item">
+		 </div>
+		  <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://t3.ftcdn.net/jpg/03/68/27/70/360_F_368277003_kREZiZn0loWALjJA6ST9EXIYwJYHXwQ7.jpg" alt="Gallery Item">
+		 </div>
+		  <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://img.freepik.com/premium-vector/young-woman-avatar-cartoon-character-profile-picture_18591-55054.jpg?w=2000" alt="Gallery Item">
+		 </div>
+		 <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://img.freepik.com/premium-vector/young-man-avatar-cartoon-character-profile-picture_18591-55058.jpg?w=2000" alt="Gallery Item">
+		 </div>
+		 <div class="gallery-item animate-in animate-in-delay-3">
+			<img src="https://static.vecteezy.com/system/resources/previews/002/406/611/original/business-man-cartoon-character-vector.jpg" alt="Gallery Item">
+		 </div>
+
+		
+		
+	</div>
+</body>
+</html>
+			
